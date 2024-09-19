@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_all/home_page.dart';
 
-
-void main(){
-  runApp(MyApp());
+void main() {
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -11,9 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Container(
-        child: Text("Welcome to Flutter learning!!!"),
-      ),
+      home: HomePage(),
     );
   }
 }
